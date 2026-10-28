@@ -1,0 +1,10 @@
+# Versiones con las que se ejecutaron y verificaron los cuadernos (octubre de 2026)
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+prince==0.23.1
+# factor_analyzer 0.5.1 publicada en PyPI no es compatible con scikit-learn >= 1.8;
+# se usa la versión corregida del repositorio oficial, fijada en un commit concreto.
+factor_analyzer @ git+https://github.com/EducationalTestingService/factor_analyzer.git@de933d26808039d965c117874c67260ec5149690
